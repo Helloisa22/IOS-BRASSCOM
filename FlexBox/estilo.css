@@ -1,0 +1,25 @@
+#cotainer{
+    display: flex; /*Tornar a coluna flexivel*/
+    /*flex-direction: column-reverse; Direção da coluna*/
+    /*flex-wrap: wrap-reverse; Com telas menores ira alinha intens a baixo*/
+    /*flex-flow: column wrap; junção de Flex-direction e flex-wrap*/
+    
+}
+
+.item1{
+    background-color: hsl(209, 59%, 41%);
+    width: 60px;
+    height: 40px;
+}
+
+.item2{
+    background-color: #555;
+    width: 60px;
+    height: 40px;
+}
+
+.item3{
+    background-color: brown;
+    width: 60px;
+    height: 40px;
+}
