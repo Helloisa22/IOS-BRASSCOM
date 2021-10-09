@@ -1,9 +1,9 @@
 #cotainer{
     display: flex; /*Tornar a coluna flexivel*/
     /*flex-direction: column-reverse; Direção da coluna*/
-    /*flex-wrap: wrap-reverse; Com telas menores ira alinha intens a baixo*/
+    flex-wrap: wrap-reverse;
     /*flex-flow: column wrap; junção de Flex-direction e flex-wrap*/
-    
+    justify-content: space-evenly;
 }
 
 .item1{
