@@ -1,0 +1,25 @@
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: x-large;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.itens{
+    width: 300px;
+    height: 294px;
+    border: 3px solid #000000;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+}
+
+.itens nav a{
+    text-decoration: none;
+}

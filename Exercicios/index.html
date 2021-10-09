@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Exercício flexbox</title>
 </head>
 <body>
@@ -12,19 +13,18 @@
     </header>
     <div class="container">
         <div class="itens">
-            <fieldset>
-                <legend>Selecione sua linguagem de programação</legend>
+                <legend>Selecione sua linguagem de programação</legend> <br>
 
                 <input type="checkbox" name="tipo" id="bts" Value="C">
-                <label for="bts">JavaScript</label>
+                <label for="bts">JavaScript </label>
                 <br>
 
                 <input type="checkbox" name="tipo" id="Ex" Value="C">
-                <label for="Ex">Python</label>
+                <label for="Ex"> Python</label>
                 <br>
 
-                <input type="checkbox" name="tipo" id="mat" Value="C">
-                <label for="mat">Java</label>
+                
+                <label for="mat"><input type="checkbox" name="tipo" id="mat" Value="C"> Java </label>
                 <br>
 
                 <input type="checkbox" name="tipo" id="mat" Value="C">
@@ -37,28 +37,26 @@
 
                 <input type="checkbox" name="tipo" id="mat" Value="C">
                 <label for="mat">Kotlin</label>
-            </fieldset>
         </div>
 
-        <div class="itens">
-            <img src="./IMG/programacao.jpg" alt="Homem sentado em uma cadeira">
-        </div>
+            <img class="foto" src="./IMG/programacao.jpg" alt="Homem sentado em uma cadeira">
 
         <div class="itens">
-            <fieldset>
                 <legend>Documentação</legend>
                 <nav>
-                    <a href="https://www.w3c.br/Cursos/CursoHTML5">HTML</a> |
-                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a> |
-                    <a href="https://git-scm.com/docs/git/pt_BR">GIT</a> |
-                    <a href="https://docs.github.com/pt">GitHub</a> |
-                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a> |
-                    <a href="https://pt-br.reactjs.org/docs/getting-started.html">React</a> |
-                    <a href="https://docs.oracle.com/en/java/index.html">Java</a>
+                    <ul>
+                        <li><a href="https://www.w3c.br/Cursos/CursoHTML5" target="_blank">HTML</a></li>
+                        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a> </li>
+                        <li><a href="https://git-scm.com/docs/git/pt_BR" target="_blank">GIT</a></li>
+                        <li><a href="https://docs.github.com/pt" target="_blank">GitHub</a></li>
+                        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JavaScript</a></li>
+                        <li><a href="https://pt-br.reactjs.org/docs/getting-started.html" target="_blank">React</a></li>
+                        <li><a href="https://docs.oracle.com/en/java/index.html" target="_blank">Java</a></li>
+                    </ul>
                 </nav>
-            </fieldset>
         </div>
     </div>
+    <br>
 
     <footer><small>Copyright <sub>&copy;</sub> - Todos os direitos reservados.</small></footer>
 </body>
