@@ -19,3 +19,14 @@ const notebook = {
 }
 
 console.log(notebook);
+
+
+// Media de nota
+const media = (nota1 =3, nota2 = 7, nota3 = 5, nota4 = 10) => {
+    return (nota1 + nota2+ nota3 + nota4) / 4;
+}
+
+// Clesiu para Fahrenheit
+function celsius (num1 = 23) {
+    return (num1*1.8) + 32;
+}

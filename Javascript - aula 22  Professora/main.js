@@ -49,3 +49,10 @@ const mouseEmCima = () => {
     console.log('Mouse está em cima do título');
 };
 
+
+// Clesiu para Fahrenheit
+function celsius (num1 = 23) {
+    return (num1*1.8) + 32;
+}
+
+console.log(celsius());
