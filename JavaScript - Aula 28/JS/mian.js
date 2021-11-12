@@ -81,3 +81,5 @@ console.log(pessoa1);
 console.log(pessoa1.dob.getFullYear()); // o ano do aniversário
 console.log(pessoa1.getBirthYear()); // Data de aniversário
 console.log(pessoa1.getFullName());
+
+// Document Object ModelS
